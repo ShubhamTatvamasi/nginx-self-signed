@@ -1,7 +1,7 @@
 # nginx-self-signed
 
 Generate a self-signed certificate:
-````bash
+```bash
 mkdir certs
 
 openssl req -x509 -nodes -days 365 \
