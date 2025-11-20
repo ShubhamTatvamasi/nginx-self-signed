@@ -30,3 +30,8 @@ To trust the cert inside netshoot:
 ```bash
 curl --cacert /root/certs/server.crt https://nginx
 ```
+
+To view the certificate details of nginx:
+```bash
+openssl s_client -connect nginx:443 -showcerts < /dev/null
+```
