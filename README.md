@@ -2,7 +2,7 @@
 
 Generate a self-signed certificate:
 ```bash
-mkdir certs
+mkdir -p certs
 
 openssl req -x509 -nodes -days 365 \
   -newkey rsa:2048 \
