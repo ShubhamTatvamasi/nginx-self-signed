@@ -30,6 +30,7 @@ To trust the cert inside netshoot:
 ```bash
 curl --cacert /root/certs/server.crt https://nginx
 ```
+> `--ciphers DEFAULT:@SECLEVEL=1` may be needed for `EE certificate key too weak`.
 
 To view the certificate details of nginx:
 ```bash
